@@ -4,9 +4,9 @@ import {useLocation, Routes, Route} from 'react-router-dom';
 import {LoadingPage} from '../loading-page/LoadingPage';
 import {LoadingWrap} from "../../components/loading-wrap/LoadingWrap";
 
-const HomePage = lazy(() => import('../../pages/home-page/HomePage'));
-const FormPage = lazy(() => import('../../pages/form-page/FormPage'));
-const NotesPage = lazy(() => import('../../pages/notes-page/NotesPage'));
+const HomePage = lazy(() => import('../home-page/HomePage'));
+const FormPage = lazy(() => import('../form-page/FormPage'));
+const NotesPage = lazy(() => import('../notes-page/NotesPage'));
 const NotePageId = lazy(() => import('../note-page-id/NotePageId'));
 const Page404 = lazy(() => import('../error-page/ErrorPage'));
 
