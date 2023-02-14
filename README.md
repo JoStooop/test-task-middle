@@ -7,7 +7,7 @@
 ## Deploy link:
 - [Open website](https://test-task-middle.vercel.app/)
 
-## Note
+## Note:
 - I don't know how to configure webpack. Implemented via CRA
 - Implemented without TypeScript
 
