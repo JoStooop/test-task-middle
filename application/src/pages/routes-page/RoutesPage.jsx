@@ -13,10 +13,10 @@ const Page404 = lazy(() => import('../error-page/ErrorPage'));
 const RoutesPage = () => {
   const location = useLocation();
 
-  const [suspended, setSuspended] = useState(true);
+  const [suspended, setSuspended] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setSuspended((s) => (s ? s : !s)), 0);
+    setTimeout(() => setSuspended((s) => (s ? s : !s)), 2000);
   }, []);
 
   return (
