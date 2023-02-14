@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 80%;
+  padding: 30px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+
+  @media (max-width: $media-laptops) {
+    width: 900px;
+  }
+  @media (max-width: $media-small-desktops) {
+    width: 580px;
+  }
+  @media (max-width: $media-tablets) {
+    width: 280px;
+    padding: 5px;
+  }
+}

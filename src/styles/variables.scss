@@ -1,0 +1,23 @@
+@import "header/header";
+@import "error/error";
+
+$media-laptops: 1200px;
+$media-small-desktops: 991px;
+$media-tablets: 768px;
+$media-phones: 420px;
+$media-small-phones: 350px;
+
+$main-color: #fff;
+$main-color-hover: rgb(120, 149, 178);
+$main-color-active: rgb(243, 239, 224);
+
+$bg-color: rgb(135, 151, 175);
+
+$shadow-color: rgba(0, 0, 0, 0.7);
+$box-shadow: rgba(0, 0, 0, 0.2);
+
+$active-color: rgb(243, 239, 224);
+$active-color-hover: rgb(169, 196, 255);
+$active-color-active: rgb(243, 239, 224);
+
+$spinner-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5)
