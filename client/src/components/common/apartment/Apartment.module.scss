@@ -1,0 +1,379 @@
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+  &_list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-left: 25px;
+  }
+
+  &_price {
+    display: flex;
+    flex-wrap: wrap;
+    width: 106px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #664EF9;
+
+    &_list {
+      width: 132px;
+      justify-content: end;
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    &_grey {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #BDBDBD;
+    }
+  }
+
+  &_count {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868;
+    padding: 8px 8px;
+    background-color: #F8F8F8;
+    border-radius: 18px;
+    margin-left: auto;
+
+    &::before {
+      width: 15px;
+      height: 15px;
+      margin-right: 6px;
+      content: url('../../../assets/images/icons/apartments/people.svg');
+    }
+
+    &_list {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #686868;
+      padding: 8px 14px;
+      background-color: #F8F8F8;
+      border-radius: 18px;
+      margin-left: 0;
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+  }
+
+  &_bedrooms {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868;
+    padding: 8px 8px;
+    background-color: #F8F8F8;
+    border-radius: 18px;
+    margin-left: 20px;
+
+    &_ml {
+      margin-left: 7px;
+    }
+
+    &_list {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #686868;
+      padding: 8px 14px;
+      background-color: #F8F8F8;
+      border-radius: 18px;
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.count {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  padding: 8px 8px;
+  background-color: #F8F8F8;
+  border-radius: 18px;
+  margin-left: auto;
+
+  &::before {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    content: url('../../../assets/images/icons/apartments/people.svg');
+  }
+
+  &_list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868;
+    padding: 8px 14px;
+    background-color: #F8F8F8;
+    border-radius: 18px;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.bedrooms {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  padding: 8px 8px;
+  background-color: #F8F8F8;
+  border-radius: 18px;
+  margin-left: 20px;
+
+  &_ml {
+    margin-left: 7px;
+  }
+}
+
+.desc {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #1E2123;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 406px;
+  background: #FFFEFE;
+  border-radius: 10px;
+
+  &_row {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 11px;
+
+  &_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 25px 17px;
+  }
+
+  &_location {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    &_list {
+      display: inline-block;
+      margin-top: 17px;
+    }
+
+    &::before {
+      content: url('../../../assets/images/icons/apartments/geo.svg');
+      margin-right: 10px;
+    }
+  }
+}
+
+.area {
+  display: flex;
+  margin: 0 20px;
+  margin-bottom: 20px;
+
+  &_list {
+    margin: 0;
+  }
+
+  &_location {
+    margin-right: 30px;
+    margin-left: 0;
+
+    &_purple {
+      color: #664EF9;
+    }
+
+    &_list {
+      margin-right: 15px;
+      margin-left: 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #686868;
+      padding: 8px 14px;
+      background-color: #F8F8F8;
+      border-radius: 18px;
+    }
+
+    &::before {
+      content: url('../../../assets/images/icons/apartments/underground.svg');
+      margin-right: 6px;
+    }
+
+    &:last-of-type {
+      &::before {
+        content: url('../../../assets/images/icons/apartments/area.svg');
+      }
+
+      margin-right: 0;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(78, 100, 249, .1);
+  padding-top: 13px;
+  margin: 0 20px;
+  margin-top: 13px;
+
+  &_list {
+    border: none;
+    padding-top: 0;
+    margin-top: 24px;
+  }
+}
+
+.item_desc {
+  margin: 0 20px;
+  font-size: 12px;
+  line-height: 150%;
+  color: #686868;
+  letter-spacing: 0.03em;
+}
+
+.like {
+  height: 33px;
+  border: none;
+  border-radius: 22px;
+  background-color: rgba(235, 87, 87, 0.1);
+  padding: 9px;
+  display: flex;
+
+  &_list {
+    height: 37px;
+    padding: 9px 15px;
+    margin-right: auto;
+    margin-left: 15px;
+  }
+
+  &_red {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EB5757;
+    margin-right: 9px;
+  }
+
+  &::after {
+    width: 15px;
+    height: 15px;
+    content: url('../../../assets/images/icons/apartments/like.svg');
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+
+  &_active {
+    &::after {
+      width: 15px;
+      height: 15px;
+      content: url('../../../assets/images/icons/apartments/red-heart-icon.svg');
+    }
+  }
+}
+
+.more {
+  background-color: rgba(255, 213, 79, 0.1);
+  border: none;
+  border-radius: 17px;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FEC100;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F8;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 15px;
+  position: relative;
+
+  &_desc {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #664EF9;
+
+    &::before {
+      content: url('../../../assets/images/icons/apartments/cellphone.svg');
+      margin-right: 10px;
+    }
+  }
+
+  &:hover {
+    background-color: #F5F3FF;
+    cursor: pointer;
+  }
+}
+
+.gold {
+  display: flex;
+  background: linear-gradient(106.06deg, #FFD54F 1.12%, #FEC100 97.96%);
+  border-radius: 0px 10px 10px 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 0px rgba(147, 79, 0, 0.3);
+  padding: 8px 12px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.item__image {
+  width: 100%;
+  height: 226px;
+  border-radius: 10px;
+  object-fit: cover;
+
+  &_list {
+    height: 300px;
+    width: 537px;
+  }
+}

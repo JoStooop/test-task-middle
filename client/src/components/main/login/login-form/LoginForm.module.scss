@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 306px;
+
+  &_error_msg {
+    font-size: 16px;
+    line-height: 10px;
+    color: #e37171;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 5px rgba(239, 200, 200, 0.9);
+  }
+
+  &_error {
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    background-color: #EB5757;
+    border-radius: 33px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    &::after {
+      width: 20px;
+      height: 20px;
+      content: url('../../../../assets/images/icons/auth/form-error.svg');
+      margin-left: 15px;
+    }
+
+  }
+
+  &_que {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+  }
+
+  &_label {
+    font-size: 14px;
+    line-height: 20px;
+    color: #686868;
+  }
+
+  &_link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #664EF9;
+  }
+
+  &_button {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E2123;
+    background: #FFD54F;
+    border-radius: 33px;
+    margin-bottom: 50px;
+    border: none;
+
+    &_mt {
+      margin-top: 20px;
+    }
+  }
+
+
+}

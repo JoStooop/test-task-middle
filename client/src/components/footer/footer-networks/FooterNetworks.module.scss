@@ -1,0 +1,36 @@
+.networks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E2123;
+  }
+
+  &_list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 24px;
+
+    & li:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &_item{
+    margin-right: 15px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: .8;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

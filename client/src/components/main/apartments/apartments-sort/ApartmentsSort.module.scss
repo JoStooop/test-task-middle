@@ -1,0 +1,30 @@
+.select {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  padding: 6px 0 8px 9px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background: #F8F8F8 url('../../../../assets/images/icons/mainpage/select.svg') no-repeat, repeat right 5px top 50%, 0 0;
+  background-size: auto, 100%;
+  appearance: none;
+
+  &_bg {
+    width: 232px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+    border-radius: 18px;
+  }
+
+  &:focus {
+    border: 3px solid rgba(102, 78, 249, 0.8);
+    color: #222;
+    outline: none;
+  }
+
+
+}

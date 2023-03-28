@@ -1,0 +1,15 @@
+.network {
+  cursor: pointer;
+
+  &:hover {
+    fill: red;
+    opacity: .8;
+  }
+}
+
+.img{
+
+  &:hover svg g path{
+    fill: red;
+  }
+}

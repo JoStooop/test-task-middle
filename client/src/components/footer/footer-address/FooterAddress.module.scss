@@ -1,0 +1,43 @@
+.wrap{
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.logo{
+  width: 134px;
+  height: 19px;
+  margin-bottom: 10px;
+}
+
+.text{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #8291A3;
+}
+
+.address{
+  max-width: 260px;
+  font-style: normal;
+  margin-top: 36px;
+
+  &_desc{
+    margin-bottom: 14px;
+    font-size: 11px;
+    line-height: 13px;
+    color: #8291A3;
+  }
+
+  &_desc_link{
+    text-decoration: none;
+    color: #8291A3;
+  }
+}

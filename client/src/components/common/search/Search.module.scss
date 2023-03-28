@@ -1,0 +1,48 @@
+.wrap {
+  display: flex;
+  position: relative;
+  width: 50%;
+  max-width: 616px;
+  margin-top: 30px;
+
+  &_bg {
+    position: absolute;
+    top: -55px;
+    left: -97px;
+    width: 850px;
+    min-height: 410px;
+    background: linear-gradient(90deg, #94AFFF 0%, #4E64F9 94.5%);
+    opacity: 0.1;
+    border-radius: 40px;
+  }
+}
+
+.input{
+  z-index: 3;
+  width: 100%;
+  border: none;
+  padding: 9px 0 11px 21px;
+  border-radius: 40px;
+  outline: none;
+  background-color: #FFF;
+}
+
+.button{
+  border: none;
+  width: 53px;
+  height: 37px;
+  border-radius: 40px;
+  background: #664EF9;
+  border-radius: 19px;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  background: url('../../../assets/images/icons/search.svg') no-repeat center;
+  background-size: cover;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+}

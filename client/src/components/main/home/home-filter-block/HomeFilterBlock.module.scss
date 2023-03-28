@@ -1,0 +1,25 @@
+@import "../../../../styles/variables";
+
+.wrap{
+  padding-top: 83px;
+  padding-bottom: 118px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 84px;
+  background: url('../../../../assets/images/icons/mainpage/setka.svg');
+  border-radius: 0px 0px 40px 40px;
+}
+
+.title{
+  margin: 0 auto 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: $main-color-white;
+  text-shadow: $text-shadow;
+
+  &_yellow {
+    color: $home-title-color-yellow;
+  }
+}

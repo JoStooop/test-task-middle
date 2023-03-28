@@ -1,0 +1,86 @@
+.wrap{
+  width: 100%;
+  max-width: 297px;
+  margin-left: 30px;
+}
+
+.list{
+  padding: 0;
+}
+
+.item{
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 40px;
+
+  & p {
+    display: flex;
+  }
+}
+
+.category_list{
+  padding: 0;
+}
+
+.category_item{
+  list-style: none;
+  margin-top: 10px;
+
+  &:first-of-type {
+    margin-top: 15px;
+  }
+
+  &:last-of-type button{
+    display: flex;
+  }
+}
+
+.block_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.block_geo{
+  text-align: start;
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FEB700;
+
+  &:hover {
+    margin-left: 10px;
+  }
+}
+
+.block_count{
+  font-size: 14px;
+  line-height: 17px;
+  color: #BDBDBD;
+}
+
+.button{
+  padding-bottom: 3px;
+  border: none;
+  border-bottom: 1px solid #F5BC03;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FEB700;
+  background-color: #FFFFFF;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &:after {
+    width: 10px;
+    height: 10px;
+    content: url('../../../../assets/images/icons/mainpage/down.svg');
+    margin-left: 3px;
+  }
+}

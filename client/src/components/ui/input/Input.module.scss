@@ -1,0 +1,40 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  margin-bottom: 15px;
+}
+
+.input{
+  padding: 15px 20px;
+  margin-right: 30px;
+  background-color: #F8F8F8;
+  border-radius: 30px;
+  display: flex;
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: #fff;
+    border: 2px solid rgba(102, 78, 249, 0.8);
+  }
+
+  &::placeholder {
+    color: #1E2123;
+  }
+}
+
+.error_msg {
+  font-size: 16px;
+  line-height: 10px;
+  color: #e37171;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 5px rgba(239, 200, 200, 0.9);
+}

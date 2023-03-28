@@ -1,0 +1,86 @@
+.nav {
+  width: 100%;
+  background-color: #F8F8F8;
+
+  & ul {
+    margin: auto;
+    max-width: 1280px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-grow: 1;
+
+  & ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  & ul > li:last-of-type {
+    margin-right: 40px;
+    margin-left: auto;
+
+    & a svg:last-of-type {
+      padding-left: 10px;
+    }
+  }
+
+  & ul li {
+    margin-right: 57px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.link {
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+  text-decoration: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-bottom: 3px solid transparent;
+
+  &_active {
+    border-bottom: 3px solid #FFD54F;
+    color: #1E2123;
+  }
+
+  &_after {
+    &::after {
+      content: url('../../../assets/images/icons/header/heart.svg');
+      margin-left: 11px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &_before {
+    &::before {
+      content: url('../../../assets/images/icons/header/loc.svg');
+      margin-right: 5px;
+      width: 8px;
+      height: 10px;
+    }
+  }
+
+  &_purple {
+    color: #664EF9;
+    padding-bottom: 11px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+    color: #8291A3;
+  }
+}

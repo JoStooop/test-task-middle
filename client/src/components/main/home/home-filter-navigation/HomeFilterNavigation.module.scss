@@ -1,0 +1,41 @@
+@import "../../../../styles/variables";
+
+.wrap {
+  margin-left: 112px;
+}
+
+.block{
+  width: fit-content;
+}
+
+.button {
+  padding: 13px 20px;
+  border: none;
+  background: rgba(45, 57, 136, 0.5);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: $main-color-white;
+  text-decoration: none;
+
+  &_active {
+    color: $main-color-purple;
+    background: $main-color-white;
+    border-radius: 10px 10px 0px 0px;
+
+    &:hover {
+      opacity: .8;
+      cursor: pointer;
+      color: $main-color-purple;
+    }
+  }
+
+  &:last-of-type {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  &:hover {
+    opacity: .8;
+    cursor: pointer;
+  }
+}

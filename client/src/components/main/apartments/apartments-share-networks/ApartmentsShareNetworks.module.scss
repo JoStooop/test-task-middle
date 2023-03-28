@@ -1,0 +1,99 @@
+.wrap {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  margin: 0 20px 0 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+
+  & li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.item {
+  list-style: none;
+  margin-right: 14px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+
+  &_vk {
+    background: url('../../../../assets/images/icons/share/vk.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_fb {
+    background: url('../../../../assets/images/icons/share/fb.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_phone {
+    background: url('../../../../assets/images/icons/share/phone.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_tg {
+    background: url('../../../../assets/images/icons/share/tg.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_wa {
+    background: url('../../../../assets/images/icons/share/wa.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_purple_vk {
+    background: url('../../../../assets/images/icons/share/vkp.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_purple_fb {
+    background: url('../../../../assets/images/icons/share/fbp.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_purple_phone {
+    background: url('../../../../assets/images/icons/share/phonep.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_purple_tg {
+    background: url('../../../../assets/images/icons/share/tgp.svg') no-repeat center;
+    background-size: cover;
+  }
+
+  &_purple_wa {
+    background: url('../../../../assets/images/icons/share/wap.svg') no-repeat center;
+    background-size: cover;
+  }
+}
+

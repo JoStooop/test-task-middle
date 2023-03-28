@@ -1,0 +1,317 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Новый сервис: аренда авто включена в стоимость аренды квартиры",
+      "description": "Description one",
+      "img": "https://picsum.photos/seed/room9/500/500",
+      "date": "2022-05-01"
+    },
+    {
+      "id": 2,
+      "title": "Прокат автомобилей: новые модели в нашем парке",
+      "description": "Description Two",
+      "img": "https://picsum.photos/seed/room9/500/500",
+      "date": "2022-05-02"
+    },
+    {
+      "id": 3,
+      "title": "Как арендовать квартиру и автомобиль за минимальное время и деньги",
+      "description": "Description Three",
+      "img": "https://picsum.photos/seed/room10/500/500",
+      "date": "2022-05-06"
+    },
+    {
+      "id": 4,
+      "title": "Аренда квартиры на выходные со скидкой на аренду авто",
+      "description": "Description Four",
+      "img": "https://picsum.photos/seed/room11/500/500",
+      "date": "2022-06-01"
+    },
+    {
+      "id": 5,
+      "title": "Скидки на аренду квартир для владельцев автомобилей",
+      "description": "Description five",
+      "img": "https://picsum.photos/seed/room12/500/500",
+      "date": "2022-05-10"
+    },
+    {
+      "id": 6,
+      "title": "Новый сервис: аренда авто включена в стоимость аренды квартиры",
+      "description": "Description six",
+      "img": "https://picsum.photos/seed/room13/500/500",
+      "date": "2023-02-01"
+    },
+    {
+      "id": 7,
+      "title": "Аренда авто: выбирайте лучшее для своей поездки",
+      "description": "Description 7",
+      "img": "https://picsum.photos/seed/room14/500/500",
+      "date": "2023-01-01"
+    },
+    {
+      "id": 8,
+      "title": "Как выбрать подходящую квартиру и автомобиль для аренды",
+      "description": "Description 8",
+      "img": "https://picsum.photos/seed/room15/500/500",
+      "date": "2023-03-11"
+    },
+    {
+      "id": 9,
+      "title": "Экономьте на аренде квартиры и получайте скидку на аренду автомобиля",
+      "description": "Description 9",
+      "img": "https://picsum.photos/seed/room16/500/500",
+      "date": "2023-02-12"
+    },
+    {
+      "id": 10,
+      "title": "Аренда квартиры и автомобиля: все, что нужно знать",
+      "description": "Description 10",
+      "img": "https://picsum.photos/seed/room17/500/500",
+      "date": "2023-01-02"
+    },
+    {
+      "id": 11,
+      "title": "Аренда квартиры на выходные со скидкой на аренду авто",
+      "description": "Description 11",
+      "img": "https://picsum.photos/seed/room18/500/500",
+      "date": "2023-03-14"
+    },
+    {
+      "id": 12,
+      "title": "Самые популярные автомобили для аренды в нашей компании",
+      "description": "Description one",
+      "img": "https://picsum.photos/seed/room19/500/500",
+      "date": "2023-03-19"
+    },
+    {
+      "id": 13,
+      "title": "Аренда квартиры и автомобиля: все, что нужно знать",
+      "description": "Description one",
+      "img": "https://picsum.photos/seed/room20/500/500",
+      "date": "2023-02-17"
+    },
+    {
+      "id": 14,
+      "title": "Новый сервис: аренда авто включена в стоимость аренды квартиры",
+      "description": "Description one",
+      "img": "https://picsum.photos/seed/room21/500/500",
+      "date": "2023-03-22"
+    }
+  ],
+  "cottages": [
+    {
+      "id": 1,
+      "city": "Минск",
+      "title": "Агроусадьба",
+      "price": 1000,
+      "options": ["Агроусадьба"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Минск",
+      "title": "Коттедж",
+      "price": 1000,
+      "options": ["Коттедж"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Минск",
+      "title": "База отдыха",
+      "price": 1000,
+      "options": ["База отдыха"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 4,
+      "city": "Минск",
+      "title": "Загородный комплекс",
+      "price": 1000,
+      "options": ["Загородный комплекс"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 5,
+      "city": "Минск",
+      "title": "Коттедж",
+      "price": 1000,
+      "options": ["Коттедж"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 6,
+      "city": "Минск",
+      "title": "Коттедж и База отдыха",
+      "price": 1000,
+      "options": ["Коттедж", "База отдыха"],
+      "rent": false,
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    }
+  ],
+  "apartments": [
+    {
+      "id": 1,
+      "city": "Минск",
+      "rent": false,
+      "title": "1 кв",
+      "location": "Минск, адрес 11",
+      "area": "Московская р-н",
+      "underground": "Московская",
+      "price": 100,
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room/500/500",
+        "https://picsum.photos/seed/room2/500/500",
+        "https://picsum.photos/seed/room3/500/500"
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Минск",
+      "rent": false,
+      "title": "2 кв",
+      "price": 11200,
+      "location": "Минск, адрес 22",
+      "area": "Фрунзенский р-н",
+      "underground": "Автозаводская",
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room4/500/500",
+        "https://picsum.photos/seed/room5/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 3,
+      "city": "Витебск",
+      "rent": false,
+      "title": "3 кв",
+      "price": 1200,
+      "location": "Минск, адрес 33, дом 4",
+      "area": "Зеленолужская р-н",
+      "underground": "Вокзальная",
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room6/500/500",
+        "https://picsum.photos/seed/room7/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 4,
+      "city": "Гомель",
+      "rent": false,
+      "title": "4 кв",
+      "price": 200,
+      "location": "Минск, адрес 44, дом 12",
+      "area": "Зеленолужская р-н",
+      "underground": "Кунцевщина",
+      "rooms": 1,
+      "imageUrls": [
+        "https://picsum.photos/seed/room8/500/500",
+        "https://picsum.photos/seed/room9/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 5,
+      "city": "Могилев",
+      "rent": false,
+      "title": "5 кв",
+      "price": 500,
+      "location": "Минск, адрес 5, дом 76",
+      "area": "Фрунзенский р-н",
+      "underground": "Пролетарская",
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room10/500/500",
+        "https://picsum.photos/seed/room11/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 6,
+      "city": "Могилев",
+      "rent": false,
+      "title": "5 кв",
+      "price": 700,
+      "location": "Минск, адрес 6",
+      "area": "Московский р-н",
+      "underground": "Каменная Горка",
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room12/500/500",
+        "https://picsum.photos/seed/room13/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 7,
+      "city": "Могилев",
+      "rent": false,
+      "title": "5 кв",
+      "price": 500,
+      "location": "Минск, адрес 7",
+      "area": "Октябрьский р-н",
+      "underground": "Могилевская",
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room14/500/500",
+        "https://picsum.photos/seed/room15/500/500"
+      ]
+    }
+  ,
+    {
+      "id": 8,
+      "city": "Могилев",
+      "rent": false,
+      "title": "5 кв",
+      "price": 5500,
+      "location": "Минск, адрес 8",
+      "area": "Зеленолужский р-н",
+      "underground": "Ковальская Слобода",
+      "rooms": 2,
+      "imageUrls": [
+        "https://picsum.photos/seed/room16/500/500",
+        "https://picsum.photos/seed/room17/500/500"
+      ]
+    }
+  ]
+}

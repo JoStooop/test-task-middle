@@ -1,0 +1,15 @@
+.item {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin-right: 15px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
